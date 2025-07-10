@@ -5,15 +5,15 @@ pool:
 
 variables:
   - name: projectName
-    value: 'Training-Student-077'              # <-- Update this
+    value: 'Training-Student-007'              # <-- Update this
   - name: buildPipelineName
-    value: 'finapi_saedi_buil.yml'       # <-- Update this
+    value: 'finapi_saedi_build'       # <-- Update this
   - name: artifactName
     value: 'api'
   - name: targetFile
     value: 'app.py'                               # Optional: Which file inside artifact to display
   - name: resourceGroup
-    value: 'Training-Student-077'          # <-- Update this
+    value: 'Training-Student-007'          # <-- Update this
   - name: webAppName
     value: 'finapi-saedi'                  # <-- Update this Azure Web App target
 
